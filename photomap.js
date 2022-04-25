@@ -20,8 +20,8 @@ function createPhotoMap () {
   var map = L.map('map').setView([33.75236, -84.37761], 13);
   
   // create basemap object. See examples at https://leaflet-extras.github.io/leaflet-providers/preview/
-  var basemap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-	maxZoom: 19,
+  var basemap = L.tileLayer('https://{s}.tile.openstreetmap.de/{z}/{x}/{y}.png', {
+	maxZoom: 18,
 	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
   
